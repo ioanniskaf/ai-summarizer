@@ -4,10 +4,10 @@ const Hero = () => {
   return (
 	<header className='w-full flex justify-center items-center flex-col'>
 		<nav className='flex justify-between items-center w-full mb-10 pt-3'>
-			<img src={logo} alt='sumz-logo' className='w-28 object-contain' />
+			<img src={logo} alt='sumz-logo' className='w-28 h-14 object-contain' />
 		<button
 			type='button'
-			onClick={() => window.open('https://github.com/adrianhajdin/project_ai_summarizer')}
+			onClick={() => window.open('https://github.com/ioanniskaf/ai-summarizer')}
 			className='black_btn'
 		>
 			GitHub
@@ -18,7 +18,7 @@ const Hero = () => {
 			<span className='orange_gradient'>OpenAI GPT-4</span>
 		</h1>
 		<h2 className='desc'>
-			Simplify your reading with Summize, an 
+			Simplify your reading with Sumz, an 
 			open-source article summarizer 
 			that transforms lengthy articles 
 			into clear and concise summaries

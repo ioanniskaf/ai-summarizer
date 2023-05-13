@@ -65,7 +65,7 @@ const Demo = () => {
 				/>
 				<input 
 					type='url'
-					placeholder='Enter a URL'
+					placeholder='Enter a URL that contains an article'
 					value={article.url}
 					onChange={(e)=>{setArticle({
 						...article, url: e.target.value
